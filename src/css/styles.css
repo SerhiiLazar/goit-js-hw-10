@@ -10,7 +10,6 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-  background-color: rgba(23, 23, 148, 0.5);
 }
 
 #search-box {
@@ -21,8 +20,7 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
   margin-top: 25px;
-  margin-right: auto;
-  margin-left: auto;
+ 
 }
 
 .country-info,
@@ -43,12 +41,11 @@ body {
 .country-list__item {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .country-info__list--title {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .country-list__item>img,
