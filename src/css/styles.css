@@ -58,6 +58,6 @@ body {
   font-weight: 700;
 }
 
-.country-info__list>span {
+.country-info__list>p>span {
   font-weight: 700;
 }

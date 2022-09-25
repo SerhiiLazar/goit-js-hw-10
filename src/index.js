@@ -56,7 +56,7 @@ function onAddCountries(countries) {
                         <h2>${name.official}</h2>
                     </li>
                     <li class="country-info__list">
-                        <p><span>apital:</span> ${capital}</p>
+                        <p><span>Capital:</span> ${capital}</p>
                     </li>
                     <li class="country-info__list">
                         <p><span>Population:</span> ${population}</p>
