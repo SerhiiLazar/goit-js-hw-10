@@ -56,13 +56,13 @@ function onAddCountries(countries) {
                         <h2>${name.official}</h2>
                     </li>
                     <li class="country-info__list">
-                        <p>Capital: ${capital}</p>
+                        <p><span>apital:</span> ${capital}</p>
                     </li>
                     <li class="country-info__list">
-                        <p>Population: ${population}</p>
+                        <p><span>Population:</span> ${population}</p>
                     </li>
                     <li class="country-info__list">
-                        <p>Languages: ${Object.values(languages)}</p>
+                        <p><span>Languages:</span> ${Object.values(languages)}</p>
                     </li>
                 </ul>
             `

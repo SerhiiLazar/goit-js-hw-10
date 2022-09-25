@@ -14,7 +14,6 @@ body {
 
 #search-box {
   display: block;
-
   font: inherit;
   padding: 8px;
   max-width: 320px;
@@ -27,12 +26,12 @@ body {
 .country-list {
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: start;
 }
 
 .country-list,
 .country-info__item {
-  text-align: center;
+  text-align: start;
   list-style: none;
   padding: 0;
  
@@ -56,5 +55,9 @@ body {
 .country-list__item>h2,
 .country-info__list--title>h2 {
   font-size: 35px;
+  font-weight: 700;
+}
+
+.country-info__list>span {
   font-weight: 700;
 }
