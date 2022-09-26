@@ -36,11 +36,11 @@ function onAddCountries(countries) {
     refs.countryInfo.innerHTML = '';
     refs.countryList.innerHTML = '';
 
-    if(countries.length > 10) {
+    if(countries.length >= 10) {
       return  Notiflix.Notify.info('Too many matches found. Please enter a more specific name.');
     }
 
-    if(countries.length >= 2 && countries.length < 10) {
+    if(countries.length >= 2 && countries.length <= 10) {
         const list = countries.map(({flags, name}) => {
             return `<li class="country-list__item"><img src="${flags.svg}" alt="" width="70" height="70"><h2>${name.official}</h2></li>`;
         })
