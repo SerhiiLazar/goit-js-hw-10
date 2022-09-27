@@ -72,7 +72,7 @@ function onAddCountries(countries) {
 }
 
 
-function onError(){
+function onError(name){
     if(name === '') {
         Notiflix.Notify.failure('Oops, there is no country with that name');
         return (refs.countryInfo.innerHTML = ''),
